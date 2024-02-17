@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container{
+    margin: 35px 250px 0 250px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .btn{
+    width: 228px;
+    height: 56px;
+    background-color: #030303;
+    border: none;
+    border-radius: 28px;
+    color: #FFF7F0;
+}
+
+.text_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #030303;
+}
+
+.text_center h1{
+    font-size: 55px;
+    width: 750px;
+}
+
+.text_center p{
+    color: #7A746E;
+    width: 720px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 354px 164px 164px 354px;
+    grid-template-rows: 158px 158px;
+    gap: 30px;
+}
+
+.graphic_design {
+    position: relative;
+    background-color: #755CDE;
+    border-radius: 8px;
+    grid-row: span 2;
+    
+}
+.graphic_design svg {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.graphic_design p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #FFF;
+    width: 210px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.UI_UX{
+    position: relative;
+    background-color: #F6A560;
+    border-radius: 8px;
+}
+.UI_UX svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.UI_UX p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Apps{
+    position: relative;
+    background-color: #F39E9E;
+    border-radius: 8px;
+}
+.Apps svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Apps p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Photography{
+    background-color: #61C4B7;
+    position: relative;
+    border-radius: 8px;
+}
+
+.Photography svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Photography p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Illustrations{
+    background-color: #EB7565;
+    position: relative;
+    border-radius: 8px;
+    grid-column: span 2;
+}
+
+.Illustrations svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Illustrations p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.Motion_Graphics{
+    background-color: #552049;
+    position: relative;
+    border-radius: 8px;
+}
+
+.Motion_Graphics svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Motion_Graphics p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.person{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.person img{
+    width: 410px;
+    height: 425px;
+}
+
+.person h2{
+    width: 540px;
+    font-size: 40px;
+    margin-bottom: 34px;
+}
+
+.person p{
+    width: 540px;
+    font-size: 18px;
+    color: #7A746E;
+    margin-bottom: 32px;
+}
+
+.person button{
+    width: 228px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #EB7565;
+    border: none;
+    color: #FFF7F0;
+}
+
+
+.contact_with_me{
+    display: flex;
+    background-color: #030303;
+    width: 100%;
+    height: 320px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.contact_with_me .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.contact_with_me h2{
+    font-size: 30px;
+    color: #FFF7F0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.contact_with_me p{
+    font-size: 18px;
+    color: #FFF7F0;
+    font-weight: 300px;
+    width: 540px;
+}
+
+
+.contact_with_me button{
+    width: 228px;
+    height: 56px;
+    background-color: #EB7565;
+    color: #FFF7F0;
+    border: none;
+    margin-right: 150px;
+    border-radius: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+footer .btn{
+    width: 228px;
+    height: 56px;
+    background-color: #030303;
+    border: none;
+    border-radius: 28px;
+    color: #FFF7F0;
+}
